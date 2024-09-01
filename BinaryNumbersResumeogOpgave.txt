@@ -1,0 +1,24 @@
+Resume:
+
+Modsætningen af digital er analog.
+Digitalt er en trinvis overgang fra 0 til 1.
+En digital værdi kan kun være 0 og 1.
+Alle farver ville fylde meget hvis vi puttede det på et stykke papir og vi ville derfor hurtigt ikke have nok plads/hukommelse når vi snakker om computeren.
+0 er ingenting, hvis vi placerer det bagved et andet ciffer, tidobler vi værdien af det andet ciffer.
+Vi læser tal fra højre til venstre, i modsætning af hvordan vi læser tekst.
+Vores talsystem består af 10 forskellige cifre, 0-9, det er cifrets position, der bestemmer dets værdi.
+Når vi snakker bits og bytes, bruger vi kun 0 og 1, og i stedet for ettere, tiere, hundrede og tusinder, er det 1'ere, 2'ere, 4'ere, 8'ere, 16'ere, 32'ere, 64'ere, 128'ere, 256'ere også videre.
+Det er altså cifrets placering som afgøre tallets værdi.
+Et eksempel kan være 1010, som er lig med den decimale værdi 10.
+Ingen 1'ere, en 2'er, ingen 4'ere og en 8'er. 2+8 = 10.
+En byte kan ses som at have 8 celler, hver celle kaldes for en bit. Hver celle repræsenterer en fordobling af den foregående værdi.
+Den maksimale værdi en byte kan indeholde er 255. Der er 256 forskellige værdier, men da 0 også tæller med er den maksimale værdi 255.
+Den første bit hedder paritets bit, og fortæller om tallet er lige eller ulige, hvis den er sat, er tallet ulige.
+En byte kan være "signed", som betyder at den kan have både en positiv og negativ værdi.
+Den sidste bit, som hedder "the most significant bit", bruges til at angive om det er et positivt eller negativt tal.
+Derfor er den maksimale værdi 127 og den mindste -128 og der er 256, 128 fra 0 til 128 og 128 flere fra -1 til -128.
+
+Opgave:
+Hvis hyrden skulle komme kl 3, skal der sættes lys i det første og anden vindue, da det ville være 1+2 = kl 3.
+Hvis hyrden skulle komme kl 5, skal der sættes lys i det trejde og første vindue, da det ville være 4+1 = kl 5.
+Hvis hyrden skulle komme kl 10, skal der sættes lys i det fjerde og andet vindue, da det ville være 8+2 = kl 10.
